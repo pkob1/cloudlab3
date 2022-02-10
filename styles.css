@@ -1,0 +1,93 @@
+:root {
+  --content-bg: grey;
+  --content-text: black;
+  --action-text: white;
+
+}
+html {
+  font: 1em sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.form-cv {
+  background-color: var(--content-bg);
+  color: var(--content-text);
+  width: 500px;
+  border: 5px solid black;
+  margin: 20px auto;
+  padding: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+}
+
+.form-cv .cvForm input {
+  padding: 5px 6px;
+  flex: 5 2;
+  width: 40em;
+  margin: 3%;
+}
+.form-cv .cvForm label {
+  font-weight: bold;
+  flex: 3 1;
+  padding: 5px 6px;
+  margin: 1%;
+}
+.form-cv .cvForm .short-column {
+  display: flex;
+  flex: 0 1 12%;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form-cv button {
+  background-color: black;
+  flex: 3 1;
+  align-self: center;
+  width: 10rem;
+  color: white;
+  padding: 5px 6px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.form-cv input {
+  width: 30%;
+  padding: 5px 6px;
+  margin: 1%;
+}
+.form-cv label {
+  width: 10%;
+  font-weight: bold;
+  padding: 5px 6px;
+  margin: 1%;
+}
+
+.form-cv .radio-box {
+  background-color: var(--content-bg);
+  color: var(--content-text);
+  width: 100%;
+  margin: 5% auto;
+  
+}
+.form-cv .radio-box blockquote{
+  display: flex;
+  justify-content: center;
+}
+
+.form-cv .radio-box label {
+  padding: 5px 6px; 
+  margin: 0 5% 0 10%;
+}
+
+.form-cv .radio-box select {
+  width: 50%;
+  margin: 0 10% 0 5%;
+  padding: 5px 6px; 
+}
+
+
